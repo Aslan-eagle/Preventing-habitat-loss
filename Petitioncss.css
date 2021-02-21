@@ -1,0 +1,112 @@
+body{
+    background-image: url(https://images.pexels.com/photos/917494/pexels-photo-917494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.top {
+  
+    overflow: hidden;
+  }
+  
+.top a {
+    float: left;
+    color: #0c0b0b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .top a:hover {
+    background-color: lightseagreen;
+    color: black;
+  }
+  
+  .top a.active {
+    background-color: darkgreen;
+    color: rgb(7, 6, 6);
+  }
+  .container{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+      width: 900px;
+      margin : 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+.bigone{
+    padding: 150px 0px;
+}
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+p.nana2{
+ 
+    padding: 0px 90px;
+}
+p.nana{
+ 
+    padding: 0px 90px;
+}
+p.nana3{
+ 
+    padding: 0px 90px;
+}
+img.pett2{
+    left: 220px;
+    position: relative;
+}
+img.pett{
+  left: 240px;
+   position: relative;
+}
+img.pett3{
+    left: 240px;
+    position: relative;
+}
+div.transbox2 {
+    
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+  }
+  
+  div.transbox2 p {
+
+    font-weight: bold;
+    color: #000000;
+  }
+form{
+    text-align: center;
+    font-size: medium;
+   padding: 30px 0px;
+
+}
+.in{
+    padding: 10px 0px;;
+}
+p.forgot{
+    padding: 10px 0px;
+}
+button a{
+    text-decoration: none;
+}
